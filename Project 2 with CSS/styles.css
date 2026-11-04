@@ -107,7 +107,7 @@
   border-radius: 0.75rem;
 }
 
-/* Resume - Style 1 */
+/* Resume Style 1 */
 .resume-page {
   margin: 0;
   background-color: #f2f2f2;
@@ -116,26 +116,26 @@
   line-height: 1.55;
 }
 
-/* Resume - Style 2 */
+/* Resume Style 2 */
 .resume-page .resume-intro {
   padding: 2rem;
   background-color: #e2e7ec;
   border-bottom: 0.25rem solid #40566b;
 }
 
-/* Resume - Style 3 */
+/* Resume Style 3 */
 .resume-page .resume-intro h1 {
   color: #20384e;
   font-size: 2.2rem;
 }
 
-/* Resume - Style 4 */
+/* Resume Style 4 */
 .resume-page .resume-content {
   width: 900px;
   margin: 2rem auto;
 }
 
-/* Resume - Style 5 */
+/* Resume Style 5 */
 .resume-page .resume-section {
   margin-bottom: 1.25rem;
   padding: 1.5rem;
@@ -144,15 +144,95 @@
   border-radius: 0.35rem;
 }
 
-/* Resume - Style 6 */
+/* Resume Style 6 */
 .resume-page .resume-section h2 {
   color: #294e6b;
   border-bottom: 2px solid #b5c4d0;
   padding-bottom: 0.4rem;
 }
 
-/* Resume - Style 7 */
+/* Resume Style 7 */
 .resume-page .resume-section h3 {
   color: #526b80;
   margin-bottom: 0.35rem;
+}
+
+/* Vacation Style 1 */
+.vacation-page {
+  margin: 0;
+  background-color: #fff8ed;
+  color: #44362b;
+  font-family: Verdana, Geneva, sans-serif;
+  line-height: 1.65;
+}
+
+/* Vacation Style 2 */
+.vacation-page .vacation-intro {
+  width: 88%;
+  max-width: 70rem;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f8e4c9;
+  border-radius: 1rem;
+}
+
+/* Vacation Style 3 */
+.vacation-page .vacation-intro h1 {
+  color: #8a451f;
+  font-size: 2.3rem;
+}
+
+/* Vacation Style 4 */
+.vacation-page .vacation-content {
+  width: 88%;
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+/* Vacation Style 5 */
+.vacation-page .vacation-section {
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 0.75rem;
+  box-shadow: 0 0.15rem 0.6rem rgba(75, 50, 25, 0.12);
+}
+
+/* Vacation Style 6 */
+.vacation-page .vacation-section h2 {
+  color: #9b542c;
+  border-bottom: 2px solid #e8c6a2;
+  padding-bottom: 0.4rem;
+}
+
+/* Vacation Style 7 */
+.vacation-page .vacation-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+/* Vacation Style 8 */
+.vacation-page .vacation-gallery figure {
+  width: 42%;
+  margin: 0;
+  text-align: center;
+}
+
+/* Vacation Style 9 */
+.vacation-page .vacation-gallery img {
+  width: 100%;
+  height: auto;
+  border: 0.25rem solid #f0d7bd;
+  border-radius: 0.5rem;
+}
+
+/* Vacation Style 10 */
+.vacation-page .vacation-gallery figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  font-style: italic;
 }
