@@ -39,3 +39,77 @@
   background-color: #172a3a;
   color: #ffffff;
 }
+
+/* Homepage Style 1 */
+.home-page {
+  margin: 0;
+  background-color: #eef4f8;
+  color: #243746;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+/* Homepage Style 2 */
+.home-page .home-intro {
+  width: 90%;
+  max-width: 68rem;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #dcecf5;
+  border-radius: 0.75rem;
+}
+
+/* Homepage Style 3 */
+.home-page h1 {
+  color: #123b5d;
+  font-size: 2.4rem;
+}
+
+/* Homepage Style 4 */
+.home-page .home-content {
+  width: 90%;
+  max-width: 68rem;
+  margin: 0 auto;
+}
+
+/* Homepage Style 5 */
+.home-page .home-section {
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border-left: 0.35rem solid #3185a8;
+  border-radius: 0.5rem;
+}
+
+/* Homepage Style 6 */
+.home-page .skills-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+/* Homepage Style 7 */
+.home-page .video-container {
+  width: 100%;
+  max-width: 40rem;
+  margin: 1.5rem auto;
+  aspect-ratio: 4 / 3;
+}
+
+/* Homepage Style 8 */
+.home-page .video-container iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Homepage Style 9 */
+.home-page .cybersecurity-image {
+  display: block;
+  width: 70%;
+  max-width: 32rem;
+  height: auto;
+  margin: 1.5rem auto;
+  border: 0.25rem solid #dcecf5;
+  border-radius: 0.75rem;
+}
