@@ -14,3 +14,28 @@
   width: 100%;
   background-color: #172a3a;
 }
+
+.site-nav a {
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #ffd166;
+  text-decoration: underline;
+}
+
+.site-header,
+.site-footer {
+  text-align: center;
+}
+
+.site-footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #172a3a;
+  color: #ffffff;
+}
