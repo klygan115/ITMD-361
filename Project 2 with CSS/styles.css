@@ -106,3 +106,53 @@
   border: 0.25rem solid #dcecf5;
   border-radius: 0.75rem;
 }
+
+/* Resume - Style 1 */
+.resume-page {
+  margin: 0;
+  background-color: #f2f2f2;
+  color: #252525;
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.55;
+}
+
+/* Resume - Style 2 */
+.resume-page .resume-intro {
+  padding: 2rem;
+  background-color: #e2e7ec;
+  border-bottom: 0.25rem solid #40566b;
+}
+
+/* Resume - Style 3 */
+.resume-page .resume-intro h1 {
+  color: #20384e;
+  font-size: 2.2rem;
+}
+
+/* Resume - Style 4 */
+.resume-page .resume-content {
+  width: 900px;
+  margin: 2rem auto;
+}
+
+/* Resume - Style 5 */
+.resume-page .resume-section {
+  margin-bottom: 1.25rem;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border: 1px solid #c8cdd2;
+  border-radius: 0.35rem;
+}
+
+/* Resume - Style 6 */
+.resume-page .resume-section h2 {
+  color: #294e6b;
+  border-bottom: 2px solid #b5c4d0;
+  padding-bottom: 0.4rem;
+}
+
+/* Resume - Style 7 */
+.resume-page .resume-section h3 {
+  color: #526b80;
+  margin-bottom: 0.35rem;
+}
