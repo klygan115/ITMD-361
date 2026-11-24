@@ -282,3 +282,37 @@
 .map-note {
   font-size: 0.9rem;
 }
+
+@media (min-width: 600px) {
+
+  .home-page .home-intro {
+    margin: 2rem auto;
+    padding: 2rem;
+  }
+
+  .home-page .home-content {
+    width: 90%;
+  }
+
+  .home-page .home-section {
+    padding: 1.5rem;
+  }
+
+  .home-page .skills-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .home-page .cybersecurity-image {
+    width: 70%;
+  }
+
+  .resume-page .resume-content,
+  .vacation-page .vacation-content,
+  .map-page .map-content {
+    width: 90%;
+  }
+
+  .vacation-page .vacation-gallery figure {
+    width: 42%;
+  }
+}
