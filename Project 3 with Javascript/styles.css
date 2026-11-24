@@ -316,3 +316,36 @@
     width: 42%;
   }
 }
+
+@media (min-width: 900px) {
+
+  .home-page .home-intro {
+    max-width: 68rem;
+    padding: 2.25rem 3rem;
+  }
+
+  .home-page .home-content {
+    max-width: 68rem;
+  }
+
+  .home-page .home-section {
+    margin: 1.75rem 0;
+    padding: 2rem;
+  }
+
+  .home-page .video-container {
+    max-width: 42rem;
+  }
+
+  .resume-page .resume-content {
+    max-width: 900px;
+  }
+
+  .vacation-page .vacation-content {
+    max-width: 70rem;
+  }
+
+  #map {
+    height: 32rem;
+  }
+}
