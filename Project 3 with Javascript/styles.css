@@ -236,3 +236,49 @@
   font-size: 0.9rem;
   font-style: italic;
 }
+
+/* Google Maps page styles. */
+.map-page {
+  margin: 0;
+  background-color: #eef4f8;
+  color: #243746;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+.map-page .map-intro {
+  width: 92%;
+  max-width: 68rem;
+  margin: 1.25rem auto;
+  padding: 1.25rem;
+  background-color: #dcecf5;
+  border-radius: 0.75rem;
+}
+
+.map-page .map-intro h1 {
+  color: #123b5d;
+}
+
+.map-page .map-content {
+  width: 92%;
+  max-width: 68rem;
+  margin: 0 auto 2rem;
+}
+
+.map-page .map-section {
+  padding: 1.1rem;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+}
+
+#map {
+  width: 100%;
+  height: 24rem;
+  min-height: 18rem;
+  border: 1px solid #c8cdd2;
+  border-radius: 0.5rem;
+}
+
+.map-note {
+  font-size: 0.9rem;
+}
