@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Chicago Map</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body class="map-page">
+    <header class="site-header">
+        <nav class="site-nav" aria-label="Main navigation">
+            <ul>
+                <li><a href="Homepage.html">Homepage</a></li>
+                <li><a href="Resume.html">Resume</a></li>
+                <li><a href="FavoriteVacation.html">Favorite Vacation</a></li>
+                <li><a href="GoogleMaps.html" aria-current="page">Google Maps</a></li>
+            </ul>
+        </nav>
+
+        <div class="map-intro">
+            <h1>Places Around Chicago</h1>
+
+            <p>
+                This map displays three Chicago locations. Select a marker to
+                view information about that place. You can also change the map type
+                using the controls in the upper-right corner of the map.
+            </p>
+
+            <button class="questions-button" type="button">Questions?</button>
+        </div>
+    </header>
+
+    <main class="map-content">
+        <section class="map-section">
+            <h2>Explore the Map</h2>
+
+            <div id="map" role="region" aria-label="Interactive map of Chicago">
+                <p>
+                    The map is loading. If it does not appear, check the API key
+                    and Google Maps API settings.
+                </p>
+            </div>
+
+            <p class="map-note">
+                Map features: multiple location markers, information windows,
+                and map-type controls.
+            </p>
+        </section>
+    </main>
+
+</body>
+
+</html>
